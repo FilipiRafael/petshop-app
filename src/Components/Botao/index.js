@@ -12,9 +12,7 @@ export default function Botao({ pequeno = false, invertido = false, valor, acao,
       onPress={acao}
       style={[estilosPadrao.botao, estilos]}
     >
-      <Text style={estilosPadrao.valor}>
-        {valor}
-      </Text>
+      <Text style={estilosPadrao.valor}>{valor}</Text>
     </TouchableOpacity>
   )
 }
