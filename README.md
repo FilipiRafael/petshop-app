@@ -15,7 +15,8 @@ Conforme vou adquirindo novas habilidades, irei atualizando o projeto em novas v
 
 ## 🚀 Screenshot
 <img width="1342" alt="app" src="https://user-images.githubusercontent.com/61629642/209704393-5d40cdd7-4b1e-4a68-bdff-7ec4c765b64e.png">
-https://user-images.githubusercontent.com/61629642/209704450-cbdc07da-d92b-418d-8739-7e23add40395.mp4
+
+https://user-images.githubusercontent.com/61629642/209704511-abe4aa7e-4b76-4876-a725-679a43bed27e.mp4
 
 # Petshop App
 
