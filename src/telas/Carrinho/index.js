@@ -37,6 +37,7 @@ export default function Carrinho() {
     <TelaPadrao>
       <StatusCarrinho total={total} />
       <FlatList
+        removeClippedSubviews={false}
         data={servicos}
         renderItem={({ item }) => (
           <Item {...item} />

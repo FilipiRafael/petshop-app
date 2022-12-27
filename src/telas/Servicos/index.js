@@ -29,6 +29,7 @@ export default function Servicos() {
   return (
     <TelaPadrao>
       <FlatList
+        removeClippedSubViews={false}
         data={servicos}
         renderItem={({ item }) => (
           <Item {...item} />
