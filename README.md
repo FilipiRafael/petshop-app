@@ -14,7 +14,7 @@ Conforme vou adquirindo novas habilidades, irei atualizando o projeto em novas v
 - Expo
 
 ## 🚀 Screenshot
-
+<img width="1342" alt="app" src="https://user-images.githubusercontent.com/61629642/209704393-5d40cdd7-4b1e-4a68-bdff-7ec4c765b64e.png">
 
 # Petshop App
 
@@ -28,7 +28,7 @@ O projeto tem o objetivo final de ser um App para contração de serviços de Pe
 | :fire: Desafio     | https://github.com/FilipiRafael/petshop-app
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/FilipiRafael/doingdev-mobile-app/blob/main/src/assets/screenshot1.png?raw=true#vitrinedev)
+![](https://user-images.githubusercontent.com/61629642/209704393-5d40cdd7-4b1e-4a68-bdff-7ec4c765b64e.png#vitrinedev)
 
 ## Detalhes do projeto
 
