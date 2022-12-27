@@ -3,9 +3,9 @@ import { cores } from '../../estilos';
 
 export default (pequeno, invertido) => StyleSheet.create({
   botao: {
-    width: 120,
+    width: 150,
     paddingVertical: pequeno ? 3 : 9,
-    paddingHorizontal: 20,
+    paddingHorizontal: 5,
     backgroundColor: invertido ? cores.laranja : cores.roxo,
     shadowColor: '#000',
     shadowOffset: {

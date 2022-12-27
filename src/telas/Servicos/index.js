@@ -1,6 +1,8 @@
 import React from 'react';
 import { SafeAreaView, StatusBar, FlatList } from 'react-native';
 
+import estilos from '../../estilos';
+
 import Item from './Item';
 
 const servicos = [
@@ -26,7 +28,7 @@ const servicos = [
 
 export default function Servicos() {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={estilos.preencher}>
       <StatusBar />
       <FlatList
         data={servicos}

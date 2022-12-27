@@ -5,14 +5,10 @@ import estilosPadrao from './estilos';
 
 export default function CampoInteiro({ valor, estilos, acao }) {
   const atualiza = (novoValor, acaoRetorno) => {
-    const verificaInteiro = novoValor.match(/ˆ[0-9]*$/);
-    console.log("novoValor: ", novoValor);
-    console.log("acaoRetorno: ", acaoRetorno);
-    console.log("verificaInteiro: ", verificaInteiro);
+    const verificaInteiro = novoValor.match(/^[0-9]*$/);
     if (!verificaInteiro) return;
 
-    const removeZeroEsquerda = novoValor.replace(/ˆ(0)(.+)/, '$2');
-    console.log("removeZeroEsquerda: ", removeZeroEsquerda);
+    const removeZeroEsquerda = novoValor.replace(/^(0)(.+)/, '$2');
 
     acaoRetorno(removeZeroEsquerda);
   };
